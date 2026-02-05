@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XcelUrself - Formations Microsoft</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  /* Reset */
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Montserrat', sans-serif; line-height:1.6; color:#333; background:#fff; }
+
+  /* Couleurs */
+  :root {
+    --blue-dark: #0A3D62;
+    --blue-light: #2980B9;
+    --gray-light: #F5F5F5;
+    --white: #fff;
+  }
+
+  /* Container */
+  .container { max-width:1200px; margin:0 auto; padding:0 20px; }
+
+  /* Header / Hero */
+  header { background:var(--blue-dark); color:var(--white); padding:100px 20px; text-align:center; }
+  header h1 { font-size:2.5rem; margin-bottom:20px; }
+  header p { font-size:1.2rem; margin-bottom:30px; }
+  .btn { background:var(--blue-light); color:var(--white); padding:15px 30px; border:none; border-radius:5px; cursor:pointer; font-size:1rem; transition:0.3s; text-decoration:none; }
+  .btn:hover { background:#1B6FA8; }
+
+  /* Sections */
+  section { padding:80px 0; }
+  section h2 { font-size:2rem; color:var(--blue-dark); margin-bottom:20px; text-align:center; }
+  section p, section ul { max-width:800px; margin:0 auto 20px auto; text-align:center; }
+  ul { list-style-type:none; }
+  ul li { margin-bottom:10px; }
+
+  /* Courses */
+  .courses { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; }
+  .course { background:var(--gray-light); padding:30px; border-radius:10px; flex:1 1 250px; text-align:center; transition:0.3s; }
+  .course:hover { transform:scale(1.05); }
+  .course h3 { color:var(--blue-dark); margin-bottom:10px; }
+
+  /* Testimonial */
+  .testimonial { background:var(--blue-light); color:var(--white); padding:60px 20px; text-align:center; font-style:italic; }
+
+  /* Footer */
+  footer { background:var(--blue-dark); color:var(--white); padding:40px 20px; text-align:center; }
+
+  @media(max-width:768px){
+    header h1 { font-size:2rem; }
+    section h2 { font-size:1.5rem; }
+    .courses { flex-direction:column; align-items:center; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Je t’aide à monter en compétences, gagner en autonomie et doubler ta productivité</h1>
+  <p>Formations sur Excel, PowerPoint et Word adaptées à tes besoins</p>
+  <a href="#formations" class="btn">Découvrir les formations</a>
+</header>
+
+<section id="about">
+  <h2>Qui suis-je ?</h2>
+  <p>Je suis Joffrey Gros, formateur bureautique certifié Microsoft et passionné par l'autonomie des apprenants. Je forme et accompagne les professionnels et étudiants à maîtriser les logiciels Microsoft pour devenir plus efficaces et confiants.</p>
+</section>
+
+<section id="problems">
+  <h2>Les problèmes que tu rencontres</h2>
+  <ul>
+    <li>Tu ne trouves pas la formation qui te convient</li>
+    <li>Tes besoins sont très spécifiques</li>
+    <li>Tu veux pouvoir pratiquer un maximum</li>
+    <li>Tu veux être préparé(e) aux certifications</li>
+  </ul>
+</section>
+
+<section id="solutions">
+  <h2>Mes solutions</h2>
+  <p>Deux options pour progresser à ton rythme :</p>
+  <ul>
+    <li>Formations sur mesure en présentiel ou distanciel</li>
+    <li>Formations en ligne avec accès illimité, vidéos, QCM et supports téléchargeables</li>
+  </ul>
+</section>
+
+<section id="formations">
+  <h2>Mes formations</h2>
+  <div class="courses container">
+    <div class="course">
+      <h3>Excel</h3>
+      <p>Exploite le tableur Excel pour booster ta productivité quotidienne et tes projets professionnels.</p>
+    </div>
+    <div class="course">
+      <h3>PowerPoint</h3>
+      <p>Crée des présentations impactantes et professionnelles pour captiver ton auditoire.</p>
+    </div>
+    <div class="course">
+      <h3>Word</h3>
+      <p>Rédige et mets en page tes documents comme un pro !</p>
+    </div>
+  </div>
+</section>
+
+<section class="testimonial">
+  <p>“Joffrey est un formateur compétent et attentionné. Agile et flexible, il sait s'adapter à la demande.”</p>
+</section>
+
+<footer>
+  <p>© XcelUrself. Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
